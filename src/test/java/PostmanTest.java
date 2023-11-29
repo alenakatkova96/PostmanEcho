@@ -20,7 +20,7 @@ public class PostmanTest {
                 .prettyPeek()
 // Проверки
                 .then()
-                .statusCode(100)
+                .statusCode(200)
                 .body("data", equalTo("some data"))
         ;
     }
